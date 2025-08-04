@@ -14,7 +14,6 @@ COPY . .
 # Build the app (Vite outputs to dist/)
 RUN npm run build
 
-
 # --------- Production Stage ---------
 FROM nginx:alpine
 
