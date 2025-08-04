@@ -40,7 +40,7 @@ const AddUser = () => {
     }
   };
 
-  const handleAdd = async () => {
+  const handleAdd = async (e) => {
     const chatRef = collection(db, "chats");
     const userChatsRef = collection(db, "userchats");
   
